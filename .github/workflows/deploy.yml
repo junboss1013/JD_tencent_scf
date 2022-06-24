@@ -3,7 +3,7 @@ name: 云函数部署
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1,8,15 * * *'
+    - cron: '13 1,8,15 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-latest
